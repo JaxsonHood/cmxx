@@ -16,6 +16,7 @@
                   :lazy-src="require('../assets/grey_background.jpg')"
                   aspect-ratio="1"
                   class="grey lighten-2"
+                  rel="preload"
                 >
                   <template v-slot:placeholder>
                     <v-row

@@ -8,8 +8,8 @@
     <div style="height:20px;"></div>
     <Blog/>
     <div style="height:40px;"></div>
-    <Gallery/>
     <div style="height:40px;"></div> -->
+    <Gallery/>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 // import Chart from '@/components/Chart.vue'
 // import Form from '@/components/Form.vue'
 // import Blog from '@/components/Blog.vue'
-// import Gallery from '@/components/Gallery.vue'
+import Gallery from '@/components/Gallery.vue'
 import PseudoCarousel from '@/components/PseudoCarousel.vue'
 import Timeline from '@/components/Timeline.vue'
 
@@ -31,7 +31,7 @@ export default {
     // Chart,
     // Form,
     // Blog,
-    // Gallery,
+    Gallery,
     PseudoCarousel,
     Timeline
   }
