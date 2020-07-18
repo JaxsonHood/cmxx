@@ -10,12 +10,13 @@
     <div style="height:40px;"></div>
     <div style="height:40px;"></div> -->
     <Gallery/>
+    <Carousel/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-//import Carousel from '@/components/Carousel.vue'
+import Carousel from '@/components/Carousel.vue'
 
 // import Chart from '@/components/Chart.vue'
 // import Form from '@/components/Form.vue'
@@ -31,6 +32,7 @@ export default {
     // Chart,
     // Form,
     // Blog,
+    Carousel,
     Gallery,
     PseudoCarousel,
     Timeline
