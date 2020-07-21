@@ -3,7 +3,7 @@
     outlined
     height="80px"
     class="mx-auto"
-    min-width="1400px"
+    min-width="90%"
     style="border-radius:20px;"
   >
     <v-toolbar class="elevation-0" style="padding-top:8px;">

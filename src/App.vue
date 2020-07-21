@@ -1,11 +1,24 @@
 <template>
   <v-app>
-    <Header/>
+    <div class="fixedHead">
+      <Header/>
+    </div>
     <v-content>
-      <router-view />
+      <v-container fluid>
+        <router-view />
+      </v-container>
     </v-content>
   </v-app>
 </template>
+
+<style scoped>
+  .fixedHead {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+  }
+</style>
 
 <script>
 import Header from '@/components/Header.vue'

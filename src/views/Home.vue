@@ -1,9 +1,7 @@
 <template>
   <div class="home mx-auto">
-    <div class="py-8"></div>
-    <!-- <v-container class="grey darken-4">
-      <h2 class="display-2 mb-3" style="color:white; padding-top:5px;">WHAT WE DO</h2>
-    </v-container> -->
+    <div class="py-14"></div>
+
     <v-card
       class="mx-auto"
       max-width="1400"
