@@ -2,20 +2,20 @@
   <v-card
     outlined
     height="80px"
-    class="d-flex justify-center"
+    class="d-flex justify-center black"
     min-width="90%"
     style="border-radius:20px;"
   >
-    <v-toolbar class="elevation-0" style="padding-top:8px;" max-width="1400px">
+    <v-toolbar class="elevation-0 black" style="padding-top:8px;" max-width="1400px" :dark="true">
       <v-toolbar-items>
         <v-btn icon class="align-self-start" size="28" href="/home">
-          <v-icon :color="black">mdi-vector-intersection</v-icon>
+          <v-icon :color="white">mdi-vector-intersection</v-icon>
         </v-btn>
       </v-toolbar-items>
-      <v-toolbar-title>CMXX</v-toolbar-title>
+      <v-toolbar-title color='white'>CMXX</v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <div class="text-center">
+      <div class="text-center d-none d-sm-flex">
         <v-chip
           class="ma-2"
           color="#304FFE"
@@ -35,8 +35,8 @@
         </v-chip>
       </div>
 
-      <v-btn text large href="/home">Home</v-btn>
-      <v-btn text large href="/about">About</v-btn>
+      <v-btn text large href="/home" color="white">Home</v-btn>
+      <v-btn text large href="/about" color="white">About</v-btn>
 
       <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>

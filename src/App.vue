@@ -17,6 +17,7 @@
     position:fixed;
     width:100%;
     z-index:100;
+    padding:8px;
   }
 </style>
 
