@@ -10,6 +10,16 @@ npm install
 npm run serve
 ```
 
+### Compiles, builds, and deploys locally
+```
+npm run it
+```
+
+### Compiles, builds, and deploys to Firebase
+```
+npm run deploy
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
