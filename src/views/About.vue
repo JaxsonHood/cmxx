@@ -1,6 +1,6 @@
 <template>
   <div class="about mx-auto">
-    <div class="py-12"></div>
+    <div class="py-10"></div>
 
     <v-container class="text-center">
       <h2 class="display-2 font-weight-bold mb-3">ABOUT ME</h2>

@@ -1,11 +1,9 @@
 <template>
   <v-card
-    color="white lighten-4"
-    flat
-    height="200px"
-    tile
+    outlined
+    height="68px"
   >
-    <v-toolbar>
+    <v-toolbar class="elevation-0">
       <v-toolbar-items>
         <v-btn icon class="align-self-start" size="28" href="/home">
           <v-icon :color="black">mdi-vector-intersection</v-icon>
