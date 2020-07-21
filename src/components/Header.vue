@@ -3,8 +3,8 @@
     outlined
     height="80px"
     class="d-flex justify-center black"
-    min-width="90%"
-    style="border-radius:20px;"
+    style="border-radius:20px; margin: auto;"
+    max-width="1400px"
   >
     <v-toolbar class="elevation-0 black" style="padding-top:8px;" max-width="1400px" :dark="true">
       <v-toolbar-items>
