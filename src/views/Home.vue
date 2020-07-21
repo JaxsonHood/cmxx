@@ -1,6 +1,21 @@
 <template>
   <div class="home mx-auto">
-    <div class="py-14"></div>
+    <div class="py-12"></div>
+
+    <v-card
+      class="mx-auto"
+      max-width="1400"
+      max-height="750"
+      outlined
+      style="border-radius:32px;"
+    >
+      <v-parallax src="https://source.unsplash.com/Im7lZjxeLhg/1600x900" height="800">
+
+      
+      </v-parallax>
+    </v-card>
+
+    <div class="py-12"></div>
 
     <v-card
       class="mx-auto"
