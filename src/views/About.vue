@@ -23,17 +23,17 @@
         <v-responsive
           class="mx-auto title font-weight-light mb-8"
           max-width="720"
-        >Vuetify is the #1 component library for Vue.js and has been in active development since 2016. The goal of the project is to provide users with everything that is needed to build rich and engaging web applications using the Material Design specification. It accomplishes that with a consistent update cycle, Long-term Support (LTS) for previous versions, responsive community engagement, a vast ecosystem of resources and a dedication to quality components.</v-responsive>
+        >We are a team of Computer Science undergraduate students at Carleton University seeking to help you achieve your digital platform goals. From full-scale applications, to simple blogs we can create a scalable, responsive, and innovative solution to the challenges your business faces. Using up and coming web technologies we can meet the demands of an ever-changing digital landscape.</v-responsive>
 
         <v-avatar class="elevation-12 mb-12" size="128">
           <v-img src="https://cdn.vuetifyjs.com/images/john.png"></v-img>
         </v-avatar>
 
         <div></div>
-
+<!-- 
         <v-btn color="grey" href="https://vuetifyjs.com" outlined large>
           <span class="grey--text text--darken-1 font-weight-bold">Vuetify Documentation</span>
-        </v-btn>
+        </v-btn> -->
       </v-container>
       
     </v-card>
