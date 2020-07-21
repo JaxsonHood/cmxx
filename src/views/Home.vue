@@ -1,6 +1,6 @@
 <template>
   <div class="home mx-auto">
-    <div class="py-10"></div>
+    <div class="py-8"></div>
     <!-- <v-container class="grey darken-4">
       <h2 class="display-2 mb-3" style="color:white; padding-top:5px;">WHAT WE DO</h2>
     </v-container> -->
@@ -8,14 +8,12 @@
       class="mx-auto"
       max-width="1400"
       outlined
-      style="border-radius:30px; padding-top:70px; padding-bottom:70px; padding-left:20px; padding-right:20px;"
+      style="border-radius:32px; padding-top:60px; padding-bottom:65px; padding-left:8px; padding-right:8px;"
     >
 
       <v-container>
-        <!-- <div class="overline mb-4" style="font-size:55px !important;">What We Do</div> -->
-
         <v-container class="text-center">
-          <h2 class="overline display-2 font-weight-bold mb-3" style="font-size:45px !important;">What we do</h2>
+          <h2 class="overline display-2 font-weight-bold mb-3" style="font-size:45px !important;">Services</h2>
         </v-container>
 
         <v-responsive class="mx-auto mb-8" width="56">
@@ -32,7 +30,7 @@
           >
               <v-card
                 class="mx-auto"
-                max-width="380"
+                max-width="375"
                 outlined
                 style="border-radius:15px; padding:5px;"
               >
@@ -69,6 +67,8 @@
       </v-container>
       
     </v-card>
+
+    <div class="py-12"></div>
     <!-- <Chart/>
     <div style="height:20px;"></div>
     <Form/>

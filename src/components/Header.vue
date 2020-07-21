@@ -1,9 +1,12 @@
 <template>
   <v-card
     outlined
-    height="68px"
+    height="80px"
+    class="mx-auto"
+    min-width="1400px"
+    style="border-radius:20px;"
   >
-    <v-toolbar class="elevation-0">
+    <v-toolbar class="elevation-0" style="padding-top:8px;">
       <v-toolbar-items>
         <v-btn icon class="align-self-start" size="28" href="/home">
           <v-icon :color="black">mdi-vector-intersection</v-icon>
@@ -22,11 +25,12 @@
 
       <v-btn icon>
         <v-icon>mdi-heart</v-icon>
-      </v-btn>
+      </v-btn> -->
 
-      <v-btn icon>
+      <!-- <v-btn icon>
         <v-icon>mdi-dots-vertical</v-icon>
       </v-btn> -->
+      
     </v-toolbar>
   </v-card>
 </template>
