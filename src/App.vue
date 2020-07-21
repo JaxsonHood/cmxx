@@ -8,13 +8,13 @@
         <router-view />
       </v-container>
     </v-content>
+  <Footer/>
   </v-app>
 </template>
 
 <style scoped>
   .fixedHead {
     position:fixed;
-    top:0;
     width:100%;
     z-index:100;
   }
@@ -22,11 +22,13 @@
 
 <script>
 import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: "App",
   components: {
-    Header
+    Header,
+    Footer
   },
   data() {
     return {
