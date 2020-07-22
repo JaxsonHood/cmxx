@@ -140,45 +140,6 @@
     </v-card>
 
     <div class="py-4"></div>
-
-    <v-card
-      :loading="loading"
-      class="mx-auto my-12"
-      max-width="1400"
-      outlined
-      style="border-radius:32px; padding-top:60px; padding-bottom:65px; padding-left:8px; padding-right:8px;"
-      >
-        <v-container class="text-center">
-          <h2 class="overline display-2 font-weight-bold mb-3" style="font-size:45px !important;">Who Are We?</h2>
-        </v-container>
-
-        <v-responsive class="mx-auto mb-8" width="56">
-          <v-divider class="mb-1"></v-divider>
-        </v-responsive>
-        <v-row>
-          <v-col v-for="(item, i) in section2"
-          :key="i"
-          cols="12"
-          sm="6"
-          style="padding:10px;">
-            <v-card>
-              <v-list-item>
-              <v-list-item-avatar color="grey"></v-list-item-avatar>
-              <v-list-item-content>
-                <v-list-item-title class="headline">{{item.name}}</v-list-item-title>
-                <v-list-item-subtitle>{{item.role}}</v-list-item-subtitle>
-              </v-list-item-content>
-              </v-list-item>
-              <v-card-text>{{item.desc}}</v-card-text>
-              <v-card-text>
-                <v-chip-group v-model="selection" active-class="indigo accent-4 white--text" column>
-                  <v-chip v-for="(chip, j) in item.skills" :key="j">{{chip}}</v-chip>
-              </v-chip-group>
-              </v-card-text>
-            </v-card>
-          </v-col>
-        </v-row>
-    </v-card>
     
 </template>
 
@@ -224,20 +185,6 @@ export default {
           description: "We want your process to be fast and enjoyable with us as we carry the project through development and launch stages.",
           icon: "offline_bolt",
           iconColour: "#00E676"
-        }
-      ],
-      section2:[
-        {
-          name: "Cameron Dickie",
-          role: "Founder",
-          desc: "This is some text that should script itself into the card",
-          skills: ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7"]
-        },
-        {
-          name: "Jaxson Hood",
-          role: "Founder",
-          desc: "Here is some more text that should script into the card",
-          skills: ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7"]
         }
       ],
       section3:[
