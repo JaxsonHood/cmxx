@@ -6,7 +6,9 @@ const NotFound = { template: "<div>Page not found</div>" };
 
 Vue.use(VueRouter)
 
-const routes = [{
+const routes = [
+
+    {
         path: '/home',
         name: 'Home',
         component: Home
@@ -24,6 +26,12 @@ const routes = [{
         // which is lazy-loaded when the route is visited.
         component: () =>
             import ( /* webpackChunkName: "about" */ '../views/About.vue')
+    },
+    {
+        path: '/contact',
+        name: 'Contact',
+        component: () =>
+            import ( /* webpackChunkName: "about" */ '../views/Contact.vue')
     },
     { path: '*', component: NotFound }
 ]

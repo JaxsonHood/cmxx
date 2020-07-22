@@ -1,6 +1,6 @@
 <template>
   <div class="home mx-auto">
-    <div class="py-11"></div>
+    <div class="py-10"></div>
 
     <v-card
       class="mx-auto"
@@ -9,15 +9,72 @@
       outlined
       style="border-radius:32px;"
     >
-      <v-parallax src="https://source.unsplash.com/2FOolRhaOek/1600x900" height="800" max-width="1400">
+      <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="800" max-width="1400">
+          <v-container>
+              <v-row>
+                <v-col
+                  v-for="(item,i) in section3"
+                  :key="i"
+                  cols="12"
+                  sm="12"
+                  style="padding:10px;"
+                >
+                    <v-card
+                      :dark="false"
+                      class="mx-auto"
+                      height="400px"
+                      width="800px"
+                      outlined
+                      style="border-radius:25px; padding:5px;"
+                    >
 
-      
+                      <v-row
+                          align="center"
+                          justify="center"
+                          style="padding:35px;"
+                        >
+                          <div
+                            class="transition-swing text-h2"
+                            v-text="item.heading"
+                            style="font-size:40px !important;"
+                          >
+                          </div>
+                      </v-row>
+
+                       <v-row
+                          align="center"
+                          justify="center"
+                          style="padding-bottom:10px;"
+                        >
+                          <div
+                            class="transition-swing text-overline"
+                            v-text="item.subhead"
+                            style="font-size:55px !important;"
+                          >
+                          </div>
+                      </v-row>
+
+                      <v-card-actions>
+                        <v-row
+                          align="center"
+                          justify="center"
+                          style="padding-top:40px; padding-bottom:20px;"
+                        >
+                        <v-btn @click="vuetify.goTo('#services')" class="ma-2" x-large outlined :color="'#212121'">Our Services</v-btn>
+                        </v-row>
+                        <!-- <v-btn text>Button</v-btn> -->
+                      </v-card-actions>
+                    </v-card>
+                </v-col>
+              </v-row>
+            </v-container>
       </v-parallax>
     </v-card>
 
-    <div class="py-12"></div>
+    <div class="py-8"></div>
 
     <v-card
+      id="services"
       class="mx-auto"
       max-width="1400"
       outlined
@@ -82,7 +139,7 @@
       
     </v-card>
 
-    <div class="py-8"></div>
+    <div class="py-4"></div>
 
     <v-card
       :loading="loading"
@@ -182,7 +239,17 @@ export default {
           desc: "Here is some more text that should script into the card",
           skills: ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7"]
         }
-      ]
+      ],
+      section3:[
+        {
+          overline: "Fast",
+          heading: "Welcome to",
+          subhead: "CMXX",
+          description: "We build fast scalable websites that can integrate well-established standards in design, implimentation, and execution.",
+          icon: "web",
+          iconColour: "#304FFE"
+        },
+      ],
     }
   },
 }

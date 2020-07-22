@@ -15,6 +15,7 @@
       <v-toolbar-title >CMXX</v-toolbar-title>
 
       <v-spacer></v-spacer>
+      
       <div class="text-center d-none d-sm-flex">
         <v-chip
           class="ma-2"
@@ -37,6 +38,7 @@
 
       <v-btn text large href="/home">Home</v-btn>
       <v-btn text large href="/about">About</v-btn>
+      <v-btn text large href="/contact">Contact</v-btn>
 
       <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
