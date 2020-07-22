@@ -9,7 +9,7 @@
       outlined
       style="border-radius:32px;"
     >
-      <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="800" max-width="1400">
+      <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="600" max-width="1400">
           <v-container>
               <v-row>
                 <v-col
@@ -71,7 +71,7 @@
       </v-parallax>
     </v-card>
 
-    <div class="py-8"></div>
+    <div class="py-2"></div>
 
     <v-card
       id="services"
