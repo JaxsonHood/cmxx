@@ -1,12 +1,12 @@
 <template>
   <v-card
     outlined
-    height="80px"
-    class="d-flex justify-center black"
+    height="72px"
+    class="black"
     style="border-radius:20px; margin: auto;"
     max-width="1400px"
   >
-    <v-toolbar class="elevation-0 black" style="padding-top:6px;" max-width="1400px" :dark="true">
+    <v-toolbar class="elevation-0 black" max-width="1400px" height="72px" :dark="true">
       <v-toolbar-items>
         <v-btn icon class="align-self-start" size="28" href="/home">
           <v-icon :color="white">mdi-vector-intersection</v-icon>
