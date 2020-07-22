@@ -6,13 +6,13 @@
     style="border-radius:20px; margin: auto;"
     max-width="1400px"
   >
-    <v-toolbar class="elevation-0 black" style="padding-top:8px;" max-width="1400px" :dark="true">
+    <v-toolbar class="elevation-0 black" style="padding-top:6px;" max-width="1400px" :dark="true">
       <v-toolbar-items>
         <v-btn icon class="align-self-start" size="28" href="/home">
           <v-icon :color="white">mdi-vector-intersection</v-icon>
         </v-btn>
       </v-toolbar-items>
-      <v-toolbar-title color='white'>CMXX</v-toolbar-title>
+      <v-toolbar-title >CMXX</v-toolbar-title>
 
       <v-spacer></v-spacer>
       <div class="text-center d-none d-sm-flex">
