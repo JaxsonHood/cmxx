@@ -1,12 +1,13 @@
 <template>
   <v-footer
-    dark
+    :dark="true"
     padless
     max-width="1400px"
     class="d-flex justify-center"
     style="margin: auto;"
   >
     <v-card
+      :dark="true"
       flat
       tile
       class="black lighten-1 white--text text-center"

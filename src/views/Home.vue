@@ -22,6 +22,7 @@
       max-width="1400"
       outlined
       style="border-radius:32px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
+      :dark="true"
     >
 
       <v-container>
