@@ -1,6 +1,6 @@
 <template>
   <div class="home mx-auto">
-    <div class="py-12"></div>
+    <div class="py-11"></div>
 
     <v-card
       class="mx-auto"
@@ -21,7 +21,7 @@
       class="mx-auto"
       max-width="1400"
       outlined
-      style="border-radius:32px; padding-top:60px; padding-bottom:65px; padding-left:8px; padding-right:8px;"
+      style="border-radius:32px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
     >
 
       <v-container>
@@ -81,7 +81,8 @@
       
     </v-card>
 
-    <div class="py-12"></div>
+    <div class="py-8"></div>
+
     <v-card
       :loading="loading"
       class="mx-auto my-12"

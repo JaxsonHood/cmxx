@@ -1,6 +1,6 @@
 <template>
   <div class="about mx-auto">
-    <div class="py-12"></div>
+    <div class="py-11"></div>
 
     <v-card
       class="mx-auto"

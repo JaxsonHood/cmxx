@@ -1,12 +1,12 @@
 <template>
   <v-card
     outlined
-    height="72px"
-    class="black"
+    height="74px"
+    class="grey lighten-1"
     style="border-radius:20px; margin: auto;"
     max-width="1400px"
   >
-    <v-toolbar class="elevation-0 black" max-width="1400px" height="72px" :dark="true">
+    <v-toolbar class="elevation-0 white" max-width="1400px" height="72px" :dark="false">
       <v-toolbar-items>
         <v-btn icon class="align-self-start" size="28" href="/home">
           <v-icon :color="white">mdi-vector-intersection</v-icon>
@@ -35,8 +35,8 @@
         </v-chip>
       </div>
 
-      <v-btn text large href="/home" color="white">Home</v-btn>
-      <v-btn text large href="/about" color="white">About</v-btn>
+      <v-btn text large href="/home" color="black">Home</v-btn>
+      <v-btn text large href="/about" color="black">About</v-btn>
 
       <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
