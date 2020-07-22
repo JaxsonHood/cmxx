@@ -23,7 +23,7 @@
                       :dark="false"
                       class="mx-auto"
                       height="400px"
-                      width="800px"
+                      width="600px"
                       outlined
                       style="border-radius:25px; padding:5px;"
                     >
@@ -58,9 +58,10 @@
                         <v-row
                           align="center"
                           justify="center"
-                          style="padding-top:40px; padding-bottom:20px;"
+                          style="padding-top:40px;"
                         >
                         <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined :color="'#212121'">Our Services</v-btn>
+                        <v-btn href='/about' class="ma-2" x-large outlined :color="'#212121'">About Us</v-btn>
                         </v-row>
                         <!-- <v-btn text>Button</v-btn> -->
                       </v-card-actions>
