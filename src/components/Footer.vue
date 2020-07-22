@@ -2,6 +2,7 @@
   <v-footer
     dark
     padless
+    max-width="1400px"
     class="d-flex justify-center"
     style="margin: auto;"
   >
