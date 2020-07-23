@@ -3,7 +3,7 @@
     outlined
     height="74px"
     class="grey lighten-1"
-    style="border-radius:20px; margin: auto;"
+    style="border-radius:15px; margin: auto;"
     max-width="1400px"
   >
     <v-toolbar class="elevation-0" max-width="1400px" height="72px" :dark="false">

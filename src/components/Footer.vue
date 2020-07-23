@@ -30,7 +30,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="">
-        {{ new Date().getFullYear() }} — <strong>CMXX</strong>
+        {{ new Date().getFullYear() }} — <strong>CMXX&trade;</strong>
       </v-card-text>
     </v-card>
   </v-footer>

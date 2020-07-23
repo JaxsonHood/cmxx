@@ -7,7 +7,7 @@
       max-width="1400"
       max-height="750"
       outlined
-      style="border-radius:32px;"
+      style="border-radius:26px;"
       elevation="5"
     >
       <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="600" max-width="1400">
@@ -26,14 +26,14 @@
                       height="400px"
                       width="600px"
                       outlined
-                      style="border-radius:25px; padding:5px;"
+                      style="border-radius:20px; padding:5px;"
                       elevation="5"
                     >
 
                       <v-row
                           align="center"
                           justify="center"
-                          style="padding:35px;"
+                          style="padding:35px; padding-top:25px !important;"
                         >
                           <div
                             class="transition-swing text-h2"
@@ -54,13 +54,28 @@
                             style="font-size:55px !important;"
                           >
                           </div>
+
+                      </v-row>
+
+                      <v-row
+                        align="center"
+                        justify="center"
+                        style="padding-top:30px;"
+                      >
+                        <div
+                          class="transition-swing text-body-2 text-center"
+                          v-text="item.description"
+                          style="font-size:16px !important; max-width:370px;"
+                        >
+                        </div>
+
                       </v-row>
 
                       <v-card-actions>
                         <v-row
                           align="center"
                           justify="center"
-                          style="padding-top:40px;"
+                          style="padding-top:25px;"
                         >
                         <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined :color="'#212121'">Our Services</v-btn>
                         <v-btn href='/about' class="ma-2" x-large outlined :color="'#212121'">About Us</v-btn>
@@ -81,7 +96,7 @@
       class="mx-auto"
       max-width="1400"
       outlined
-      style="border-radius:32px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
+      style="border-radius:26px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
       :dark="true"
       elevation="5"
     >
@@ -197,7 +212,7 @@ export default {
           overline: "Fast",
           heading: "Welcome to",
           subhead: "CMXX",
-          description: "We build fast scalable websites that can integrate well-established standards in design, implimentation, and execution.",
+          description: "We take pride in building beautiful & functional websites and apps that are inspired by modern material design principals.",
           icon: "web",
           iconColour: "#304FFE"
         },
