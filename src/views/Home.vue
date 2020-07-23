@@ -1,11 +1,11 @@
 <template>
   <div class="home mx-auto">
-    <div class="py-11"></div>
+    <div class="py-10"></div>
 
     <v-card
       class="mx-auto"
       max-width="1400"
-      max-height="800"
+      max-height="700"
       outlined
       style="border-radius:26px;"
       elevation="5"
@@ -23,7 +23,7 @@
                     <v-card
                       :dark="false"
                       class="mx-auto"
-                      height="470px"
+                      height="450px"
                       width="600px"
                       outlined
                       style="border-radius:20px; padding:5px;"
@@ -77,8 +77,8 @@
                           justify="center"
                           style="padding-top:25px;"
                         >
-                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" large outlined :color="'#212121'">Our Services</v-btn>
-                        <v-btn href='/about' class="ma-2" large outlined :color="'#212121'">About Us</v-btn>
+                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined :color="'#212121'">Our Services</v-btn>
+                        <!-- <v-btn href='/about' class="ma-2" large outlined :color="'#212121'">About Us</v-btn> -->
                         </v-row>
                         <!-- <v-btn text>Button</v-btn> -->
                       </v-card-actions>
