@@ -212,7 +212,7 @@ export default {
           overline: "Fast",
           heading: "Welcome to",
           subhead: "CMXX",
-          description: "We take pride in building beautiful, functional websites and apps that are inspired by modern material design principals.",
+          description: "We take pride in building beautiful, functional websites & apps that are inspired by modern material design principals.",
           icon: "web",
           iconColour: "#304FFE"
         },
