@@ -8,6 +8,7 @@
       max-height="750"
       outlined
       style="border-radius:32px;"
+      elevation="5"
     >
       <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="600" max-width="1400">
           <v-container>
@@ -26,7 +27,7 @@
                       width="600px"
                       outlined
                       style="border-radius:25px; padding:5px;"
-                      elevation="8"
+                      elevation="5"
                     >
 
                       <v-row
@@ -82,6 +83,7 @@
       outlined
       style="border-radius:32px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
       :dark="true"
+      elevation="5"
     >
 
       <v-container>
@@ -106,6 +108,7 @@
                 max-width="375"
                 outlined
                 style="border-radius:15px; padding:5px;"
+                elevation="10"
               >
                 <v-list-item two-line>
                   <v-list-item-content>
