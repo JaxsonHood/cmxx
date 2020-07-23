@@ -5,12 +5,12 @@
     <v-card
       class="mx-auto"
       max-width="1400"
-      max-height="750"
+      max-height="800"
       outlined
       style="border-radius:26px;"
       elevation="5"
     >
-      <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="600" max-width="1400">
+      <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="700" max-width="1400">
           <v-container>
               <v-row>
                 <v-col
@@ -23,7 +23,7 @@
                     <v-card
                       :dark="false"
                       class="mx-auto"
-                      height="400px"
+                      height="470px"
                       width="600px"
                       outlined
                       style="border-radius:20px; padding:5px;"
@@ -33,7 +33,7 @@
                       <v-row
                           align="center"
                           justify="center"
-                          style="padding:35px; padding-top:25px !important;"
+                          style="padding:35px;"
                         >
                           <div
                             class="transition-swing text-h2"
@@ -77,8 +77,8 @@
                           justify="center"
                           style="padding-top:25px;"
                         >
-                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined :color="'#212121'">Our Services</v-btn>
-                        <v-btn href='/about' class="ma-2" x-large outlined :color="'#212121'">About Us</v-btn>
+                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" large outlined :color="'#212121'">Our Services</v-btn>
+                        <v-btn href='/about' class="ma-2" large outlined :color="'#212121'">About Us</v-btn>
                         </v-row>
                         <!-- <v-btn text>Button</v-btn> -->
                       </v-card-actions>

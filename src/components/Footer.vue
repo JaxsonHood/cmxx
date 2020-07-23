@@ -2,7 +2,7 @@
   <v-footer
     :dark="false"
     padless
-    max-width="1400px"
+    min-width="1400px"
     class="d-flex justify-center"
     style="margin: auto;"
   >
@@ -10,6 +10,7 @@
       :dark="true"
       flat
       tile
+      min-width="1400px"
       class="lighten-1 text-center"
     >
       <v-card-text>
@@ -24,7 +25,7 @@
       </v-card-text>
 
       <v-card-text class="pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        To get in touch, visit our contact page!
       </v-card-text>
 
       <v-divider></v-divider>
