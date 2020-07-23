@@ -26,6 +26,7 @@
                       width="600px"
                       outlined
                       style="border-radius:25px; padding:5px;"
+                      elevation="8"
                     >
 
                       <v-row

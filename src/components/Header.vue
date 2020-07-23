@@ -12,11 +12,12 @@
           <v-icon :color="white">mdi-vector-intersection</v-icon>
         </v-btn>
       </v-toolbar-items>
-      <v-toolbar-title >CMXX</v-toolbar-title>
+      
+      <v-toolbar-title class="d-none d-sm-flex">CMXX</v-toolbar-title>
 
       <v-spacer></v-spacer>
-      
-      <div class="text-center d-none d-sm-flex">
+
+      <div class="text-center d-none d-md-flex">
         <v-chip
           class="ma-2"
           color="#304FFE"
