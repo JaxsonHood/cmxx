@@ -2,7 +2,6 @@
   <v-footer
     :dark="false"
     padless
-    min-width="1400px"
     class="d-flex justify-center"
     style="margin: auto;"
   >
@@ -10,7 +9,7 @@
       :dark="true"
       flat
       tile
-      min-width="1400px"
+      max-width="1400px"
       class="lighten-1 text-center"
     >
       <v-card-text>
@@ -25,7 +24,7 @@
       </v-card-text>
 
       <v-card-text class="pt-0">
-        To get in touch, visit our contact page!
+        To get in touch, visit our contact page! We believe in producing a good product for value because we know how frustrating it is to have expectation not met, thats why we use the best technologies that are required for each unique project!
       </v-card-text>
 
       <v-divider></v-divider>
