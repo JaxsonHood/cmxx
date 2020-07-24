@@ -186,7 +186,7 @@ export default {
           overline: "Fast",
           heading: "Websites",
           subhead: "For any size company.",
-          description: "We build fast scalable websites that can integrate well-established standards in design, implimentation, and execution.",
+          description: "We build fast, easy to navigate websites that integrate well-established standards in design, implimentation, and execution.",
           icon: "web",
           iconColour: "#304FFE"
         },
@@ -194,7 +194,7 @@ export default {
           overline: "Scalable",
           heading: "Apps",
           subhead: "Delivered to your end user.",
-          description: "Using a development tool like Flutter, we can scale your app on android, ios, and even macOS creating a unified experience.",
+          description: "Using a development tool like Flutter, we can launch your app on android, ios, and even macOS creating a unified experience.",
           icon: "smartphone",
           iconColour: "#FF1744"
         },
@@ -202,7 +202,7 @@ export default {
           overline: "Smooth",
           heading: "Launch",
           subhead: "Removing stress from the experience.",
-          description: "We want your process to be fast and enjoyable with us as we carry the project through development and launch stages.",
+          description: "We want your process to be easy and enjoyable with us as we carry the project through development and launch stages.",
           icon: "offline_bolt",
           iconColour: "#00E676"
         }
