@@ -115,8 +115,8 @@
       src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
     ></v-img> -->
 
-    <v-row align="center" justify="center" style="height:220px; padding-top:15px;">
-      <v-avatar color="orange" size="175">
+    <v-row align="center" justify="center" style="height:210px; padding-top:15px;">
+      <v-avatar color="orange" size="170">
         <!-- <span class="white--text headline">170</span> -->
         <v-img
           height="200"
@@ -133,17 +133,19 @@
 
     <v-divider class="mx-4"></v-divider>
 
-    <v-card-title><div style="color:#757575;">ABILITIES:</div></v-card-title>
+    <v-card-title><div style="color:#757575;">SPECIALTIES:</div></v-card-title>
 
     <v-card-text>
       <v-chip-group
         column
       >
+       <v-chip color="light-blue accent-3" outlined>UI Conception</v-chip>
+
         <v-chip color="green accent-3" outlined>Clean Designs</v-chip>
 
-        <v-chip color="red accent-3" outlined>Optimizing Code</v-chip>
+        <v-chip color="red accent-3" outlined>Optimization</v-chip>
 
-        <v-chip color="light-blue accent-3" outlined>UI Conception</v-chip>
+        <v-chip color="amber accent-3" outlined>Prod. Organization</v-chip>
       </v-chip-group>
     </v-card-text>
 
