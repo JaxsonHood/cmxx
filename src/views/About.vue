@@ -7,6 +7,7 @@
       max-width="1400"
       outlined
       style="border-radius:32px; padding-top:60px; padding-bottom:65px; padding-left:8px; padding-right:8px;"
+      :dark="false"
     >
       <v-container class="text-center">
         <v-container class="text-center">
@@ -39,15 +40,15 @@
               <div
                 class="transition-swing text-overline"
                 style="font-size:55px !important; padding-bottom:40px !important;"
-              >Who Are</div>
+              >Our Team</div>
             </v-row>
-
+<!-- 
             <v-row align="center" justify="center">
               <div
                 class="transition-swing text-overline"
                 style="font-size:55px !important; padding-bottom:40px !important;"
               >We?</div>
-            </v-row>
+            </v-row> -->
           </v-container>
 
           <v-responsive class="mx-auto mb-8" width="56">
@@ -101,18 +102,73 @@
     </v-card>
 
     <div class="py-12"></div>
-    <Card1 />
+
+  <v-card
+    class="mx-auto my-12"
+    style="border-radius:20px; padding:5px;"
+    max-width="330"
+    :dark="true"
+    outlined
+  >
+    <!-- <v-img
+      height="250"
+      src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
+    ></v-img> -->
+
+    <v-row align="center" justify="center" style="height:220px; padding-top:15px;">
+      <v-avatar color="orange" size="175">
+        <!-- <span class="white--text headline">170</span> -->
+        <v-img
+          height="200"
+          src="../assets/jaxson.jpeg"
+        ></v-img>
+      </v-avatar>
+    </v-row>
+
+    <v-card-title class="justify-center overline" style="font-size:23px !important;">Jaxson Hood</v-card-title>
+    <v-card-subtitle><div class="text-center">UX Designer / Software Developer</div></v-card-subtitle>
+    <v-card-text>
+      <div style="color:#EEEEEE;" class="text-center">As a team member at CMXX I believe in creating products that elevate the client experience, and an enviroment that pushes the team to new heights.</div>
+    </v-card-text>
+
+    <v-divider class="mx-4"></v-divider>
+
+    <v-card-title><div style="color:#757575;">ABILITIES:</div></v-card-title>
+
+    <v-card-text>
+      <v-chip-group
+        column
+      >
+        <v-chip color="green accent-3" outlined>Clean Designs</v-chip>
+
+        <v-chip color="red accent-3" outlined>Optimizing Code</v-chip>
+
+        <v-chip color="light-blue accent-3" outlined>UI Conception</v-chip>
+      </v-chip-group>
+    </v-card-text>
+
+    <v-card-actions>
+      <!-- <v-btn
+        color="deep-purple lighten-2"
+        text
+        @click="reserve"
+      >
+        Reserve
+      </v-btn> -->
+    </v-card-actions>
+  </v-card>
+    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Card1 from "@/components/Card1.vue";
+// import Card1 from "@/components/Card1.vue";
 
 export default {
   name: "About",
   components: {
-    Card1
+    // Card1
   },
   data() {
     return {
