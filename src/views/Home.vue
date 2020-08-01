@@ -76,7 +76,7 @@
                           justify="center"
                           style="padding-top:25px;"
                         >
-                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined :color="'#212121'">Our Services</v-btn>
+                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined rounded :color="'#212121'">Our Services</v-btn>
                         <!-- <v-btn href='/about' class="ma-2" large outlined :color="'#212121'">About Us</v-btn> -->
                         </v-row>
                         <!-- <v-btn text>Button</v-btn> -->
