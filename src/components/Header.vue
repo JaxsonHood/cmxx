@@ -4,8 +4,9 @@
     height="74px"
     class="grey lighten-1"
     style="border-radius:15px; margin: auto;"
+    max-width="1455"
   >
-    <v-toolbar class="elevation-0" height="72px" :dark="false">
+    <v-toolbar class="elevation-0" height="72px" :dark="false" max-width="1455">
       <v-toolbar-items>
         <v-btn icon class="align-self-start" size="28" href="/home">
           <v-icon :color="white">mdi-vector-intersection</v-icon>

@@ -1,5 +1,5 @@
 <template>
-  <div class="about mx-auto">
+  <div class="about mx-auto" style="background-color:#F5F5F5;">
     <div class="py-10"></div>
 
     <v-card
@@ -7,6 +7,7 @@
       outlined
       style="border-radius:18px; padding-top:60px; padding-bottom:65px; padding-left:8px; padding-right:8px;"
       :dark="true"
+      max-width="1450"
     >
       <v-container class="text-center">
         <v-container class="text-center">
@@ -25,10 +26,13 @@
         <v-responsive
           class="mx-auto title font-weight-light mb-8"
           max-width="720"
-        >We are a team of Computer Scientists seeking to help you achieve your digital platform goals. From full-scale applications, to simple blogs. We can create a scalable, responsive, and innovative solution to the challenges your business faces. Using up and coming web technologies we can meet the demands of an ever-changing online landscape.</v-responsive>
+        >We are a team of <span class='c_block' style="background-color:#FFD740; color:#263238;"> Computer Scientists </span> 
+        seeking to help you achieve your digital platform goals. From full-scale applications, to simple blogs. We can create a <span class='c_block' style="background-color:#0091EA; color:white;"> Scalable </span>
+        , <span class='c_block' style="background-color:#00E676; color:white;"> Responsive </span>, 
+        and <span class='c_block' style="background-color:#FF3D00; color:white;"> Innovative </span> solution to the challenges your business faces. Using up and coming web technologies we can meet the demands of an ever-changing online landscape.</v-responsive>
 
         <v-row>
-          <v-col v-for="(item,i) in theboys" :key="i" cols="12" sm="4" style="padding:5px;">
+          <v-col v-for="(item,i) in theboys" :key="i" cols="12" sm="4" style="padding:5px; min-width:300px;">
             <v-card
               class="mx-auto my-12"
               style="border-radius:20px; padding:5px;"
@@ -97,6 +101,12 @@
   </div>
 </template>
 
+<style scoped>
+ .c_block{
+   font-weight:bold; border-radius:6px; margin-right:0.2em; margin-left:0.2em; display:inline-block; white-space: pre-wrap;
+ }
+</style>
+
 <script>
 // @ is an alias to /src
 // import Card1 from "@/components/Card1.vue";
@@ -118,19 +128,19 @@ export default {
           skills: [
             {
               title: "UI Conception",
-              color: "light-blue accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Clean Design",
-              color: "green accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Optimization",
-              color: "red accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Proj. Organization",
-              color: "amber accent-3"
+              color: "#EEEEEE"
             }
           ]
         },
@@ -143,19 +153,19 @@ export default {
           skills: [
             {
               title: "UI Conception",
-              color: "light-blue accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Clean Design",
-              color: "green accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Optimization",
-              color: "red accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Proj. Organization",
-              color: "amber accent-3"
+              color: "#EEEEEE"
             }
           ]
         },
@@ -168,19 +178,19 @@ export default {
           skills: [
             {
               title: "UI Conception",
-              color: "light-blue accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Clean Design",
-              color: "green accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Optimization",
-              color: "red accent-3"
+              color: "#EEEEEE"
             },
             {
               title: "Proj. Organization",
-              color: "amber accent-3"
+              color: "#EEEEEE"
             }
           ]
         }

@@ -1,5 +1,5 @@
 <template>
-  <div class="home mx-auto">
+  <div class="home mx-auto" style="background-color:#F5F5F5;">
     <div class="py-10"></div>
 
     <v-card
@@ -8,6 +8,7 @@
       outlined
       style="border-radius:18px;"
       elevation="5"
+      max-width="1450"
     >
       <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="700">
           <v-container>
@@ -76,7 +77,7 @@
                           justify="center"
                           style="padding-top:25px;"
                         >
-                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined rounded :color="'#212121'">Our Services</v-btn>
+                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined :color="'#212121'" style="border-radius:10px;">Our Services</v-btn>
                         <!-- <v-btn href='/about' class="ma-2" large outlined :color="'#212121'">About Us</v-btn> -->
                         </v-row>
                         <!-- <v-btn text>Button</v-btn> -->
@@ -97,6 +98,7 @@
       style="border-radius:18px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
       :dark="true"
       elevation="5"
+      max-width="1450"
     >
 
       <v-container>

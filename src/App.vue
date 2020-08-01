@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="background-color:#F5F5F5;">
     <div class="fixedHead">
       <Header/>
     </div>
