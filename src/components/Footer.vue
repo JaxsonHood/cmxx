@@ -3,14 +3,14 @@
     :dark="false"
     padless
     class="d-flex justify-center"
-    style="margin: auto;"
+    width="100%"
   >
     <v-card
       :dark="true"
       flat
       tile
-      max-width="1400px"
       class="lighten-1 text-center"
+      width="100%"
     >
       <v-card-text>
         <v-btn

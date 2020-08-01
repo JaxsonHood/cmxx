@@ -4,13 +4,12 @@
 
     <v-card
       class="mx-auto"
-      max-width="1400"
       max-height="700"
       outlined
-      style="border-radius:26px;"
+      style="border-radius:18px;"
       elevation="5"
     >
-      <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="700" max-width="1400">
+      <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="700">
           <v-container>
               <v-row>
                 <v-col
@@ -94,9 +93,8 @@
     <v-card
       id="services"
       class="mx-auto"
-      max-width="1400"
       outlined
-      style="border-radius:26px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
+      style="border-radius:18px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
       :dark="true"
       elevation="5"
     >
