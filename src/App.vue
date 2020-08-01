@@ -3,11 +3,11 @@
     <div class="fixedHead">
       <Header/>
     </div>
-    <v-content>
+    <v-main>
       <v-container fluid>
         <router-view />
       </v-container>
-    </v-content>
+    </v-main>
   <Footer/>
   </v-app>
 </template>

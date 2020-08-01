@@ -1,6 +1,6 @@
 <template>
   <div class="home mx-auto" style="background-color:#F5F5F5;">
-    <div class="py-10"></div>
+    <div class="py-11"></div>
 
     <v-card
       class="mx-auto"
@@ -89,7 +89,7 @@
       </v-parallax>
     </v-card>
 
-    <div class="py-2"></div>
+    <div class="py-3"></div>
 
     <v-card
       id="services"

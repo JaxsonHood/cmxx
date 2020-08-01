@@ -37,9 +37,9 @@
         </v-chip>
       </div>
 
-      <v-btn text large href="/home">Home</v-btn>
-      <v-btn text large href="/about">About</v-btn>
-      <v-btn text large href="/contact">Contact</v-btn>
+      <v-btn id='Home' text large href="/home">Home</v-btn>
+      <v-btn id='About' text large href="/about">About</v-btn>
+      <v-btn id='Contact' text large href="/contact">Contact</v-btn>
 
       <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
@@ -57,11 +57,24 @@
   </v-card>
 </template>
 
+<style scoped>
+  .in_use {
+    display: none;
+  }
+</style>
+
 <script>
   export default {
     name: 'Header',
     data () {
       return {}
     },
+    // watch:{
+    //   $route (to, from){
+    //       //This changes the link color based on url
+    //       document.getElementById(from.name).classList.remove('in_use');
+    //       document.getElementById(to.name).classList.add('in_use');
+    //   }
+    // }
   }
 </script>
