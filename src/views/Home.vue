@@ -10,7 +10,8 @@
       elevation="5"
       max-width="1450"
     >
-      <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="700">
+      <!-- <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="700"> -->
+      <v-parallax src="https://source.unsplash.com/IGtutkXikuc/1600x900" height="700">
           <v-container>
               <v-row>
                 <v-col
@@ -26,7 +27,7 @@
                       height="450px"
                       width="600px"
                       outlined
-                      style="border-radius:20px; padding:5px;"
+                      style="border-radius:20px; padding:5px; border-color:#263238; border-width:2px;"
                       elevation="5"
                     >
 
@@ -77,7 +78,7 @@
                           justify="center"
                           style="padding-top:25px;"
                         >
-                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" outlined :elevation="2" x-large style="border-radius:10px;">Our Services</v-btn>
+                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" outlined :elevation="2" x-large style="border-radius:10px; border-width:1.5px;">Our Services</v-btn>
                         <!-- <v-btn href='/about' class="ma-2" large outlined :color="'#212121'">About Us</v-btn> -->
                         </v-row>
                         <!-- <v-btn text>Button</v-btn> -->
