@@ -77,7 +77,7 @@
                           justify="center"
                           style="padding-top:25px;"
                         >
-                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined :color="'#212121'" style="border-radius:10px;">Our Services</v-btn>
+                        <v-btn href="#" v-scroll-to="'#services'" class="ma-2" x-large outlined style="border-radius:10px;">Our Services</v-btn>
                         <!-- <v-btn href='/about' class="ma-2" large outlined :color="'#212121'">About Us</v-btn> -->
                         </v-row>
                         <!-- <v-btn text>Button</v-btn> -->
@@ -148,7 +148,7 @@
                     justify="end"
                     style="padding-right:6px;"
                   >
-                  <v-btn class="ma-2" outlined :color="item.iconColour">Learn More</v-btn>
+                  <v-btn class="ma-2" style="border-radius:10px;" :color="item.iconColour">Learn More</v-btn>
                   </v-row>
                   <!-- <v-btn text>Button</v-btn> -->
                 </v-card-actions>
@@ -222,7 +222,6 @@ export default {
   methods: {
     scrollToElement(section) {
       const el = this.$el.getElementsByClassName(section)[0];
-
       if (el) {
         el.scrollToElement();
       }

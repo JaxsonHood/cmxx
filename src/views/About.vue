@@ -14,7 +14,7 @@
           <h2
             class="overline display-2 font-weight-bold mb-3"
             style="font-size:45px !important;"
-          >About Us</h2>
+          >Our Team</h2>
         </v-container>
 
         <v-responsive class="mx-auto mb-8" width="56">
