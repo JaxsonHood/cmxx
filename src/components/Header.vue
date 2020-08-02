@@ -38,9 +38,9 @@
         </v-chip>
       </div>
 
-      <v-btn id='Home' text large href="/home">Home</v-btn>
-      <v-btn id='About' text large href="/about">About</v-btn>
-      <v-btn id='Contact' text large href="/contact">Contact</v-btn>
+      <v-btn id='Home' text large style="border-radius:10px;" :elevation="5" href="/home">Home</v-btn>
+      <v-btn id='About' text large style="border-radius:10px;" :elevation="5" href="/about">About</v-btn>
+      <v-btn id='Contact' text large style="border-radius:10px;" :elevation="5" href="/contact">Contact</v-btn>
 
       <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
