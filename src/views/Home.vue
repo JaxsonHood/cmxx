@@ -117,13 +117,14 @@
             :key="i"
             cols="12"
             sm="4"
-            style="padding:10px;"
+            style="padding:10px; min-width:225px;"
           >
               <v-card
                 class="mx-auto"
                 max-width="375"
                 outlined
                 style="border-radius:15px; padding:5px;"
+                min-width="200px"
                 elevation="10"
               >
                 <v-list-item two-line>
