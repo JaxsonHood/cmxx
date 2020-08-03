@@ -111,20 +111,20 @@
           <v-divider class="mb-1"></v-divider>
         </v-responsive>
 
-        <v-row>
+        <v-row mx-auto align="center" justify="center">
           <v-col
             v-for="(item,i) in section1"
             :key="i"
             cols="12"
             sm="4"
-            style="padding:10px; min-width:225px;"
+            style="padding:10px; min-width:385px;"
           >
               <v-card
                 class="mx-auto"
-                max-width="375"
+                max-width="400"
                 outlined
                 style="border-radius:15px; padding:5px;"
-                min-width="200px"
+                min-width="350px"
                 elevation="10"
               >
                 <v-list-item two-line>
