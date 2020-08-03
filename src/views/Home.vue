@@ -61,7 +61,7 @@
                       <v-row
                         align="center"
                         justify="center"
-                        style="padding-top:30px;"
+                        style="padding-top:30px; padding-left:10px; padding-right:10px;"
                       >
                         <div
                           class="transition-swing text-body-2 text-center"
@@ -96,7 +96,7 @@
       id="services"
       class="mx-auto"
       outlined
-      style="border-radius:18px; padding-top:55px; padding-bottom:60px; padding-left:8px; padding-right:8px;"
+      style="border-radius:18px; padding-top:55px; padding-bottom:60px; padding-left:3px; padding-right:3px;"
       :dark="true"
       elevation="5"
       max-width="1450"
@@ -117,13 +117,13 @@
             :key="i"
             cols="12"
             sm="4"
-            style="padding:10px; min-width:360px;"
+            style="padding:10px; min-width:355px;"
           >
               <v-card
                 class="mx-auto"
                 max-width="400"
                 outlined
-                style="border-radius:15px; padding:5px;"
+                style="border-radius:15px; padding:4px;"
                 min-width="325px"
                 elevation="10"
               >
