@@ -31,8 +31,8 @@
         , <span class='c_block' style="background-color:#A5D6A7; color:black;"> Responsive </span>, 
         and <span class='c_block' style="background-color:#FFAB91; color:black;"> Innovative </span> solution to the challenges your business faces. Using up and coming web technologies we can meet the demands of an ever-changing online landscape.</v-responsive>
 
-        <v-row>
-          <v-col v-for="(item,i) in theboys" :key="i" cols="12" sm="4" style="padding:5px; min-width:300px;">
+        <v-row mx-auto align="center" justify="center">
+          <v-col v-for="(item,i) in theboys" :key="i" cols="12" sm="4" style="padding:5px; min-width:300px;" align="center" justify="center">
             <v-card
               class="mx-auto my-12"
               style="border-radius:20px; padding:5px;"
@@ -41,7 +41,7 @@
               outlined
               elevation="5"
             >
-              <v-row align="center" justify="center" style="height:210px; padding-top:15px;">
+              <v-row mx-auto align="center" justify="center" style="height:210px; padding-top:15px;">
                 <v-avatar color="orange" size="170">
                   <!-- <span class="white--text headline">170</span> -->
                   <v-img height="200" v-bind:src="require('../assets/' + item.img)"></v-img>
