@@ -104,7 +104,7 @@
 
       <v-container>
         <v-container class="text-center">
-          <h2 class="overline display-2 font-weight-bold mb-3" style="font-size:45px !important;">Services</h2>
+          <h2 class="overline display-2 font-weight-bold mb-3" style="font-size:45px !important;">We Make</h2>
         </v-container>
 
         <v-responsive class="mx-auto mb-8" width="56">
@@ -161,9 +161,124 @@
       
     </v-card>
 
+    <div class="py-3"></div>
+
+    <v-card
+      class="mx-auto"
+      max-height="700"
+      outlined
+      style="border-radius:18px;"
+      elevation="5"
+      max-width="1450"
+    >
+      <!-- <v-parallax src="https://source.unsplash.com/TTBEwfajRFc/1600x900" height="700"> -->
+      <v-parallax src="https://source.unsplash.com/CMs6ZGOdyho/1600x900" height="600">
+          <v-container>
+              <v-row>
+                <v-col
+                  cols="12"
+                  sm="12"
+                  style="padding:10px;"
+                >
+                    <v-card
+                      :dark="false"
+                      class="mx-auto"
+                      height="450px"
+                      width="600px"
+                      outlined
+                      style="border-radius:20px; padding:5px; border-color:#263238; border-width:2px;"
+                      elevation="5"
+                    >
+
+                      <v-row
+                          align="center"
+                          justify="center"
+                          style="padding-top:60px !important; padding-left:5px; padding-right:5px;"
+                        >
+                          <div
+                            class="transition-swing text-h4 bold"
+                            v-text="'Our Team'"
+                            style="font-size:40px !important;"
+                          >
+                          </div>
+                      </v-row>
+
+                       <v-row
+                          align="center"
+                          justify="center"
+                        >
+                        <div style="max-width:300; padding:10px;">
+                          <v-chip-group column>
+                            <v-chip
+                              class="ma-1"
+                              outlined
+                            >
+                              <v-icon left>perm_identity</v-icon>
+                              Cam
+                            </v-chip>
+
+                            <v-chip
+                              class="ma-1"
+                              outlined
+                            >
+                              <v-icon left>perm_identity</v-icon>
+                              Alex
+                            </v-chip>
+
+                            <v-chip
+                              class="ma-1"
+                              outlined
+                            >
+                              <v-icon left>perm_identity</v-icon>
+                              Jaxson
+                            </v-chip>
+
+                          </v-chip-group>
+                        </div>
+                      </v-row>
+
+                      <v-row
+                        align="center"
+                        justify="center"
+                        style="padding-top:20px; padding-left:15px; padding-right:15px;"
+                      >
+                        <div
+                          class="transition-swing text-body-2 text-center"
+                          v-text="'Click below to learn more about our team of dedicated keyboard warriors! :)'"
+                          style="font-size:16px !important; max-width:370px;"
+                        >
+                        </div>
+
+                      </v-row>
+
+                      <v-card-actions>
+                        <v-row
+                          align="center"
+                          justify="center"
+                          style="padding-top:25px;"
+                        >
+                          <v-btn href="/about" class="ma-2" outlined :elevation="2" x-large style="border-radius:10px; border-width:1.5px;">See Team</v-btn>                        <!-- <v-btn href='/about' class="ma-2" large outlined :color="'#212121'">About Us</v-btn> -->
+                        </v-row>
+                        <!-- <v-btn text>Button</v-btn> -->
+                      </v-card-actions>
+                    </v-card>
+                </v-col>
+              </v-row>
+            </v-container>
+      </v-parallax>
+    </v-card>
+
+
     <div class="py-4"></div>
     
 </template>
+
+<style scoped>
+  .strokeme {
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  }
+</style>
 
 <script>
 // @ is an alias to /src
