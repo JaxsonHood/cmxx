@@ -317,7 +317,7 @@ export default {
           iconColour: "#2979FF"
         },
         {
-          overline: "Create",
+          overline: "Creative",
           heading: "Software",
           subhead: "Unique solutions to problems.",
           description: "We want to cater our software solutions to the specific needs of your project, we will take new approaches to fit your needs best.",
