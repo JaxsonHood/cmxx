@@ -10,7 +10,7 @@
     <v-toolbar class="elevation-0" height="72px" :dark="true" max-width="1455">
       <v-toolbar-items>
         <v-btn icon class="align-self-start" size="28" href="/home">
-          <v-icon :color="white">mdi-vector-intersection</v-icon>
+          <v-icon >mdi-vector-intersection</v-icon>
         </v-btn>
       </v-toolbar-items>
       
@@ -81,13 +81,26 @@
   export default {
     name: 'Header',
     data () {
-      return {}
+      return {
+        links: {
+          'home': {
+            path: '/home',
+            active: false
+          },
+          'about': {
+            path: '/about',
+            active: false
+          },
+          'contact': {
+            path: '/contact',
+            active: false
+          }
+        }
+      }
     },
     // watch:{
     //   $route (to, from){
-    //       //This changes the link color based on url
-    //       document.getElementById(from.name).classList.remove('in_use');
-    //       document.getElementById(to.name).classList.add('in_use');
+
     //   }
     // }
   }
