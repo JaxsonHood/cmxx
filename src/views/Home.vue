@@ -150,7 +150,7 @@
                     justify="end"
                     style="padding-right:6px;"
                   >
-                  <v-btn class="ma-2" style="border-radius:10px;" :color="item.iconColour">Learn More</v-btn>
+                  <v-btn class="ma-2" style="border-radius:10px; color:black;" :color="item.iconColour">Learn More</v-btn>
                   </v-row>
                   <!-- <v-btn text>Button</v-btn> -->
                 </v-card-actions>
@@ -270,6 +270,7 @@
 
 
     <div class="py-4"></div>
+  </div>
     
 </template>
 
@@ -305,7 +306,7 @@ export default {
           subhead: "For any size company.",
           description: "We build fast, easy to navigate websites that integrate well-established standards in design, implimentation, and execution.",
           icon: "web",
-          iconColour: "#304FFE"
+          iconColour: "#00E676"
         },
         {
           overline: "Scalable",
@@ -313,15 +314,15 @@ export default {
           subhead: "Delivered to your end user.",
           description: "Using a development tool like Flutter, we can launch your app on android, ios, and even macOS creating a unified experience.",
           icon: "smartphone",
-          iconColour: "#FF1744"
+          iconColour: "#2979FF"
         },
         {
-          overline: "Smooth",
-          heading: "Launch",
-          subhead: "Removing stress from the experience.",
-          description: "We want your process to be easy and enjoyable with us as we carry the project through development and launch stages.",
+          overline: "Create",
+          heading: "Software",
+          subhead: "Unique solutions to problems.",
+          description: "We want to cater our software solutions to the specific needs of your project, we will take new approaches to fit your needs best.",
           icon: "offline_bolt",
-          iconColour: "#00E676"
+          iconColour: "#FFB300"
         }
       ],
       section3:[

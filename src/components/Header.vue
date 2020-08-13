@@ -21,7 +21,7 @@
       <div class="text-center d-none d-md-flex">
         <v-chip
           class="ma-2"
-          color="#304FFE"
+          color="#00E676"
           outlined
         >
           <v-icon left>web</v-icon>
@@ -30,7 +30,7 @@
 
         <v-chip
           class="ma-2"
-          color="#FF1744"
+          color="#2979FF"
           outlined
         >
           <v-icon left>smartphone</v-icon>
@@ -39,11 +39,11 @@
 
         <v-chip
           class="ma-2"
-          color="#00E676"
+          color="#FFB300"
           outlined
         >
           <v-icon left>offline_bolt</v-icon>
-          Launch
+          Software
         </v-chip>
       </div>
 
